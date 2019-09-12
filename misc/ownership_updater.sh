@@ -4,6 +4,7 @@
 echo '==================================================='
 echo ' Additonal Hardening: Miscellenous ownership updates'
 echo '==================================================='
+echo 'I made this change'
 
 ## Fix Missing File Ownership
 find / -nouser -print | xargs chown root
