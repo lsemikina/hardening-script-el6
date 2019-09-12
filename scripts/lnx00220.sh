@@ -8,3 +8,5 @@ echo '==================================================='
 if [ -f /etc/lilo.conf ]; then
 	chmod 600 /etc/lilo.conf
 fi
+
+# all bash scripts not ansible
