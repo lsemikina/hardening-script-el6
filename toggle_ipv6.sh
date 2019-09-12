@@ -21,6 +21,8 @@ BASE_DIR=`dirname $(realpath $0)`
 BASE_BACKUP=$BASE_DIR/backups
 KERNEL=`uname -r`
 BLACKLIST="/etc/modprobe.d/usgcb-blacklist.conf"
+VAR1=`date`
+VAR2=""
 
 # USAGE STATEMENT
 usage() {
